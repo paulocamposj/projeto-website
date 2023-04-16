@@ -78,3 +78,44 @@ footer h2 {
     padding: 10px;
     border-radius: 10px;
 }
+
+@media only screen and (max-width: 768px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .header-img {
+        width: auto;
+        height: 25vh;
+        margin: 0;
+    }
+
+    header div img {
+        height: 100%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer div img {
+        height: 100%;
+    }
+
+    .footer-logo{
+        width: auto;
+        margin: 0;
+    }
+
+    .footer-redes {
+        display: none;
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Code</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    <header>
+        <div class="header-img">
+            <img src="img/NEWS CODE.png" alt="" width="150" height="150">
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#redes">Contatos</a></li>
+                    <li><a href="/cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <div>
+            <img class="img-b" src="https://tpc.googlesyndication.com/simgad/8429389017690898090" alt="" width="680" height="200">
+        </div>
+            <section>
+                    <h1>Cadastre-se para não perder nada</h1>
+                    <form>
+                        <label for="nome">Nome</label><br/><p id="msgNome"></p>
+                        <input type="text" id="nomeInput" name="nome"><br/>
+        
+                        <label for="sobrenome">Sobrenome</label><br/>
+                        <input type="text" id="sobrenomeInput" name="sobrenome"><br/>
+        
+                        <label for="email">Email</label><br/><p id="msgEmail"></p>
+                        <input type="email" id="emailInput" name="email"><br/>      
+        
+                        <label for="dataNascimento">Data de Nacimento</label><br/>
+                        <input type="date" id="dataNascimentoInput" name="dataNascimento"><br/>
+                        
+                        <label for="telefone">Telefone</label><br/><p id="msgTel"></p>
+                        <input type="tel" id="telefoneInput" name="telefone"><br/>
+                          
+                        <label for="conteudo">Qual conteúdo mais interessante</label><br>
+                            <select name="conteudo" id="conteudo">
+                                <option value="educacao">Educação</option>
+                                <option value="moda">Moda</option>
+                                <option value="mundo">Mundo</option>
+                                <option value="tecnologia">Tecnologia</option>
+                                <option value="televisao">Televisão</option>
+                                <option value="esporte">Esporte</option>
+                            </select><br>
+
+                            <label for="termos" class="termos">Concordo com os termos de uso</label><br>
+                            <input type="checkbox" id="termos" name="termos" value="termos"><br>
+
+                            <label for="termos" class="termos">Aceitar o envio de e-mails
+                            </label><br>
+                            <input type="checkbox" id="termos" name="termos" value="termos"><br>
+
+                            <input type="button" value="Enviar" onclick="validaCampos()">
+                      </form>
+            </section>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="img/Cópia de NEWS CODE.png" alt="" width="100" height="100">
+        </div>
+        <div id="redes" class="footer-redes">
+            <h2>Nossas Redes</h2>
+            <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img class="icon-rede" src="img/instagram.png"  alt="Instagram"></a>
+            <a href="https://www.linkedin.com/company/soulcodeacademy/" target="_blank"><img class="icon-rede" src="img/linkedin.png" alt=" LinkedIn"></a>
+            <a href="https://soulcode.com/" target="_blank"><img class="icon-rede" src="img/r8h9sHYY_400x400.jpg" alt=" LinkedIn"></a>
+        </div>          
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
