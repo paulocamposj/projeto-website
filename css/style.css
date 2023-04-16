@@ -27,9 +27,13 @@ header div img {
     height: 100%;
 }
 
-nav {
+header nav {
     height: 10vh;
     margin-right: 50px;
+}
+
+#spanid {
+    display: none;
 }
 
 ul {
@@ -98,8 +102,7 @@ footer h2 {
         flex-direction: column;
         align-items: end;
     }
-
-    header nav span {
+    #spanid {
         display: block;
         color: white;
     }
