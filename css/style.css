@@ -19,8 +19,12 @@ header {
 }
 
 .header-img {
-    height: 25vh;
+    height: auto;
     margin-left: 140px; 
+}
+
+header div img {
+    height: 100%;
 }
 
 nav {
@@ -83,12 +87,38 @@ footer h2 {
 
     header {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         width: auto;
     }
 
-    nav{
+    header nav{
+        margin: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    header nav span {
+        display: block;
+        color: white;
+    }
+
+    ul{ 
         display: none;
+        height: 100%;
+        margin-bottom: 10px;
+        background-color: white;
+    }
+
+    li{
+        padding: 8px;
+        font-size: 20px;
+        display: block;
+    }
+
+    a{
+        color: #B90504;
     }
 
     .header-img {

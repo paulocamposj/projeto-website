@@ -7,14 +7,18 @@
     <title>News Code</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
 </head>
 <body>
     <header>
         <div class="header-img">
             <img src="/img/NEWS CODE.png" alt="" width="150" height="150">
         </div>
-            <nav>
-                <ul>
+            <nav id="navid">
+                <span id="spanid" class="material-symbols-outlined" onclick="menu()" >
+                    menu
+                </span>
+                <ul id="menuid">
                     <li><a href="/index.html">Home</a></li>
                     <li><a href="#redes">Contatos</a></li>
                     <li><a href="/cadastro.html">Cadastro</a></li>
@@ -35,11 +39,31 @@
             </section>
             <section class="section-conteudo">
                 <figure>
+                    <img src="https://s2.glbimg.com/JCTPbHc2AnX6GyAIBDQRRz-QRaw=/129x58:1872x1057/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2023/k/A/gOnPAAR7yJNiXBIBLUWg/d8953e08-4c30-4b12-b30e-b541e26ffefc.jpeg" alt="" width="300" height="200">
+                </figure>
+                <article>
+                    <h4>Famosos</h4><br>
+                    <a href="/detail2.html"><h2>Gustavo, do BBB 23, e irmã gêmea de Key Alves se encontram durante evento em São Paulo</h2><br></a>
+                    <p>Gustavo está aproveitando bastante a vida de solteiro após o término com Key Alves, que conheceu durante o BBB 23.</p>
+                </article>
+            </section>
+            <section class="section-conteudo">
+                <figure>
+                    <img src="https://s2.glbimg.com/wFkpzGEmKPy-f2AYcKuW1UtZglc=/0x19:566x337/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/f/3/IwwtXmRpCWjywY8rhz6Q/novo-projeto-1-.jpg" alt="" width="300" height="200">
+                </figure>
+                <article>
+                    <h4>TikTok</h4><br>
+                    <a href="/detail3.html"><h2>Xurrasca? Sósia do influenciador viraliza e ganha fã-clube</h2><br></a>
+                    <p>Raquel Cristina Carvalho, de 17 anos, moradora de Paciência, no Rio, contou ao g1, que recebe pedidos de fotos e está muito feliz com a repercussão do vídeo imitando o influenciador.</p>
+                </article>
+            </section>
+            <section class="section-conteudo">
+                <figure>
                     <img src="https://s2.glbimg.com/nAAAWAQ1GiA1qaLP06X6yA68D6U=/0x0:1268x713/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/2/5/Th0bwdRbipYxIMQmBfsQ/2023-03-27t175616z-1340432485-rc2f20a42b4k-rtrmadp-3-britain-royals-newspapers.jpg" alt="" width="300" height="200">
                 </figure>
                 <article>
                     <h4>Família real</h4><br>
-                    <h2>Príncipe Harry irá participar da coroação do pai, diz Palácio de Buckingham</h2><br>
+                    <a href="/detail4.html"><h2>Príncipe Harry irá participar da coroação do pai, diz Palácio de Buckingham</h2><br></a>
                     <p>Um porta-voz do Palácio de Buckingham anunciou nesta quarta-feira (12) que o príncipe Harry irá participar da coroação do pai, o rei Charles III, em 6 de maio. A cerimônia acontecerá na Abadia de Westminster.</p>
                 </article>
             </section>
@@ -61,5 +85,6 @@
             <a href="https://soulcode.com/" target="_blank"><img class="icon-rede" src="/img/r8h9sHYY_400x400.jpg" alt=" LinkedIn"></a>
         </div>          
     </footer>
+    <script src="/js/menu.js"></script>
 </body>
 </html>

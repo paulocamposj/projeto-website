@@ -1,0 +1,100 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90vw;
+    height: 190vh;
+}
+
+.container-1{
+    margin-top: 20px;
+    height: 30vh;
+    width: 55vw;
+}
+
+main div img {
+    display: inline-block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.container-2{
+    margin-top: 20px;
+    display: flex;
+    height: 200vh;
+    width: 80vw;
+}
+
+
+main section article {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left : 200px;
+}
+
+main section article h1{
+    font-size: 50px;
+}
+
+main section article h2{
+    font-size: 20px;
+}
+
+.main-aside{
+    width: 20vw;
+    height: 80vh;
+    margin-top: 210px;
+    margin-left: 40px;
+}
+main div aside{
+    padding: 10px;
+    width: 20vw;
+    height: 40vh;
+}
+
+main div aside img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .container-1{
+        display: none;
+    }
+
+    main {
+        width: auto;
+        height: 170vh;
+    }
+
+    .container-2{
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    main section {
+        margin: 0;
+    }
+
+    main section article{
+        width: 100%;
+        margin: 0;
+    }
+
+    main section article h1{
+        font-size: 30px;
+    }
+    
+    .main-aside{
+        display: none;
+    }
+
+    
+}

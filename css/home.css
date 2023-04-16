@@ -2,7 +2,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 180vh;
 }
 
 .container-1 {
@@ -41,7 +41,7 @@ aside img {
     main {
         display: flex;
         justify-content: center;
-        height: 250vh;
+        height: 450vh;
         width: 100vw;
     }
 
