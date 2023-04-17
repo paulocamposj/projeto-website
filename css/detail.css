@@ -4,7 +4,8 @@ main {
     justify-content: flex-start;
     flex-direction: column;
     width: 90vw;
-    height: 200vh;
+    height: 230vh;
+    padding-top: 150px;
 }
 
 .container-1{
@@ -70,7 +71,7 @@ main div aside img {
 
     main {
         width: auto;
-        height: 200vh;
+        height: 230vh;
     }
 
     .container-2{

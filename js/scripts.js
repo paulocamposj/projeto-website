@@ -33,6 +33,17 @@ let validaNome = () => {
 
 }
 
+let validaTermo = () => {
+    var termosAceitos = document.getElementById("termosInput").checked;
+    
+    if(!termosAceitos){
+        document.getElementById("msgTermo").innerHTML = 'Os termos devem ser aceitos para continuar com o cadastro';
+    }else{
+        document.getElementById("msgTermo").innerHTML = '';
+    }
+
+}
+
 let confirmaCadastro = (telefoneValido, emailValido) => {
     if(telefoneValido && emailValido){
         alert("Cadastreido meu asmuigo!");
@@ -44,5 +55,6 @@ function validaCampos(){
     let telefoneValido = validaTelefone();   
     let emailValido = validaEmail();
     validaNome();
+    validaTermo();
     confirmaCadastro(telefoneValido, emailValido);
 }

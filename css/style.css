@@ -11,10 +11,12 @@ body {
 }
 
 header {    
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 25vh;
+    width: 100vw;
     background-color: #B90504;
 }
 
@@ -92,7 +94,7 @@ footer h2 {
     header {
         display: flex;
         justify-content: space-between;
-        width: auto;
+        width: 100vw;
     }
 
     header nav{
